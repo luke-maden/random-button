@@ -4,6 +4,7 @@
     "description": "Selects a random saved album.",
     "preview": "r-key.png",
     "main": "dist\random-button.js",
-    "readme": "README.md"
+    "readme": "README.md",
+    "tags": ["random", "album", "hotkey", "keybind"]
   }
 ]
