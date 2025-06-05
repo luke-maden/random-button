@@ -9,10 +9,10 @@ async function main() {
 
   console.log(albums.items[0].name);
   
-  // Show message on keybind.
+  // Sets current page to a random uri from albums
   Spicetify.Mousetrap.bind('R', function() {
     let index = Math.floor(Math.random() * albums.totalLength);
-    Spicetify.showNotification(albums.items[index].name);
+    Spicetify.Platform.History.push("/album/" + albums.items[index].uri.split(':')[2]); // parses string for relevant part of uri
   });
 }
 
