@@ -1,16 +1,14 @@
-# Spicetify Creator
+# Random Album Button
 
-Spicetify Creator is a tool to compile modern Typescript/Javascript code to Spicetify extensions and custom apps.
+## An extension for Spicetify which allows you to select a random album from your library
 
-## Features
-- Typescript and React syntax
-- Import node packages
-- CSS/SCSS with PostCSS support
-- Extremely fast compile time with esbuild.
-- Plugins
+To use, just press `Shift + r` when not in a text box.
 
-## Docs
-Check out [Spicetify's docs](https://spicetify.app/docs/development/spicetify-creator/the-basics)!
+## Installation
 
-## Made with Spicetify Creator
+To install just download random-button.js from dist and copy it into your \AppData\Roaming\spicetify\Extensions folder.  
+Then in Spicetify CLI run `spicetify config extensions random-button.js`
+
+### Made with Spicetify Creator
+
 - https://github.com/spicetify/spicetify-creator

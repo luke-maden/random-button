@@ -8,9 +8,9 @@ async function fetchAllAlbums(){
     flattenTree: true,
   }) as GetContentsResponse<AlbumItem>
 
-  // if(!result.items?.length){
-  //   throw new Error("No albums found");
-  // }
+  if(result.totalLength == 0){
+    throw new Error("No albums found");
+  }
 
   return result;
 }
